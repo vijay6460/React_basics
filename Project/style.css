@@ -1,0 +1,93 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-image: url("https://images4.alphacoders.com/236/thumb-1920-236764.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+.Navbar img {
+  width: 5%;
+  border-radius: 50px;
+}
+.Navbar a {
+  color: white;
+  margin-left: 2%;
+  font-style: italic;
+  font-weight: bold;
+}
+.search {
+  width: 35%;
+  padding: 0.6%;
+  border-radius: 50px;
+  margin-left: 5%;
+  margin-top: 0.8%;
+}
+.cards-Name {
+  display: flex;
+  flex-direction: row;
+}
+.cards img {
+  width: 40%;
+}
+.product1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5%;
+  font-style: italic;
+}
+.btn1 {
+  width: 10%;
+  background-color: white;
+  padding: 0.1%;
+  border-radius: 50px;
+  margin-bottom: 2%;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.cards {
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 70%;
+  height: 30vh;
+}
+.cards img {
+  height: 30vh;
+  width: 80%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+.cards img:hover {
+  transform: scale(1.3);
+}
+.cards {
+  color: white;
+  font-size: 20px;
+}
+.deone{
+
+   height: 70vh;
+   display: flex;
+   flex-direction: row;
+   margin-top: 20%;
+   margin-left: 10%;
+  
+}
+.deone img{
+    width: 60%;
+ height: 50vh;
+
+}
+
